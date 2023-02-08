@@ -1,0 +1,30 @@
+@import '../../../assets/scss/variables';
+
+.facttwo-module{
+    background-color: $color-black;
+    color: $color-contrasting;
+    border-top: 8px solid $color-lightbrown;
+
+    .facttwo-image{
+        width: 100%;
+    }
+    .facttwo-text{
+        text-align: center;
+    }
+    .facttwo-info{
+        font-size: $font-xl;
+        font-weight:lighter;
+        letter-spacing: 2px;
+        font-family: 'Finlandica', sans-serif;
+    }
+    .color-change{
+        color: $color-lightbrown;
+        font-style: italic;
+        font-weight: 500;
+        font-size: $font-name;
+        font-family: 'Chela One', cursive;
+    }
+    .onlycolor-change{
+        color: $color-lightbrown;
+    }
+}

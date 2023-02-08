@@ -1,0 +1,40 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.factthree-module{
+    background-color: $color-black;
+    color: $color-contrasting;
+    border-top: 8px solid $color-lightbrown;
+    border-bottom: 8px solid $color-lightbrown;
+
+    .factthree-image{
+        width: 100%;
+    }
+    .factthree-text{
+        text-align: center;
+    }
+    .factthree-info{
+        font-size: $font-xl;
+        font-weight:lighter;
+        letter-spacing: 2px;
+        font-family: 'Finlandica', sans-serif;
+    }
+    .color-change{
+        color: $color-lightbrown;
+        font-style: italic;
+        font-weight: 500;
+        font-size: $font-name;
+        font-family: 'Chela One', cursive;
+    }
+    .onlycolor-change{
+        color: $color-lightbrown;
+    }
+}
+
+@include tablet{
+    .factthree-module{
+        .fact-three{
+            flex-direction: column-reverse;
+        }
+    }
+}

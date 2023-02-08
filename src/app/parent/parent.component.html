@@ -1,0 +1,33 @@
+<section class="banner-module">
+<div class="container">
+    <div class="banner">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-12 banner-text">
+                <p class="banner-name">Mickey Mouse</p>
+                <p class="banner-info"><span class="color-change">Co-created by : </span> Walt Disney and Ub Iwerks</p>
+                <p class="banner-info"><span class="color-change">First appearance : </span>Steamboat Willie (1928)</p>
+                <div class="view-more">
+                    <button class="view-link" (click)="goDown()">View More </button>
+                    <div class="arrow">
+                        <span class="arrow-span"></span>
+                        <span class="arrow-span"></span>
+                        <span class="arrow-span"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 text-center">
+                <img class="banner-image" src="../../assets/images/mickey2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Selector as class -->
+<div class="app-child-one" id="firstdiv"></div>
+
+<!-- Selector as element -->
+<app-child-two></app-child-two>
+
+<!-- Selector as attribute -->
+<div app-child-three></div>
